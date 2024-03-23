@@ -1,0 +1,76 @@
+{
+  "counterNameLabel": {
+    "type": "hidden",
+    "label": "Counter name"
+  },
+  "counterName": {
+    "type": "text",
+    "label": "(This name will be used in commands)",
+    "value": "counter"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Counter font size",
+    "value": 72,
+    "min": 1
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Counter font color",
+    "value": "#FFFFFF"
+  },
+  "tipThreshold": {
+    "type": "number",
+    "label": "Tip to increase",
+    "value": 5,
+    "min": 1
+  },
+  "subThreshold": {
+    "type": "number",
+    "label": "Subs to increase",
+    "value": 1,
+    "min": 1
+  },
+  "cheerThreshold": {
+    "type": "number",
+    "label": "Cheer to increase",
+    "value": 100,
+    "min": 1
+  },
+  "allowMockHint": {
+    "group": "DEBUG/TEST",
+    "type": "hidden",
+    "label": "(Disable to ignore replays/test actions)"
+  },
+  "allowMock": {
+    "group": "DEBUG/TEST",
+    "type": "checkbox",
+    "label": "[DEBUG] Allow mock",
+    "value": false
+  },
+  "resetCounter": {
+    "group": "DEBUG/TEST",
+    "type": "button",
+    "label": "Reset counter"
+  },
+  "addOne": {
+    "group": "DEBUG/TEST",
+    "type": "button",
+    "label": "+1"
+  },
+  "addTen": {
+    "group": "DEBUG/TEST",
+    "type": "button",
+    "label": "+10"
+  },
+  "subOne": {
+    "group": "DEBUG/TEST",
+    "type": "button",
+    "label": "-1"
+  },
+  "subTen": {
+    "group": "DEBUG/TEST",
+    "type": "button",
+    "label": "-10"
+  }
+}
